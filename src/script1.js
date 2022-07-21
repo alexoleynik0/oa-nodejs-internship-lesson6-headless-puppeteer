@@ -1,7 +1,7 @@
 const path = require('path');
 const puppeteer = require('puppeteer');
 
-const outputPath = path.resolve(process.cwd(), 'output');
+const outputPath = path.resolve(__dirname, '..', 'output');
 
 const SEARCH_INPUT_SELECTOR = '.navbar__search input[aria-label="Search"]';
 const SEARCH_RESULTS_SELECTOR = '.navbar__search span[class*=dropdownMenu_]';

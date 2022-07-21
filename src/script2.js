@@ -1,7 +1,7 @@
 const path = require('path');
 const puppeteer = require('puppeteer');
 
-const outputPath = path.resolve(process.cwd(), 'output');
+const outputPath = path.resolve(__dirname, '..', 'output');
 
 const NAV_SELECTOR = 'nav.navbar';
 const NAV_NEW_COLOR = '#1F54C0';
