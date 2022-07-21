@@ -1,9 +1,13 @@
 # oa-nodejs-internship-lesson6-headless-puppeteer
 
-### 1. Script that opens `https://pptr.dev/`, does search for `pdf` and saves screenshot as a `pdf` file.
+### 1. [src/script1.js](https://github.com/alexoleynik0/oa-nodejs-internship-lesson6-headless-puppeteer/blob/master/src/script1.js)
 
-Output can be found in the `output/script1.pdf`.
+A script that opens `https://pptr.dev/`, searches for `pdf`, creates and saves the page as a `pdf` file.
 
-### 2. Script that opens `https://pptr.dev/`, changes nav bar `color` to _#1F54C0_ and saves screenshot as a `png` file.
+Output can be found in the [output/script1.pdf](https://github.com/alexoleynik0/oa-nodejs-internship-lesson6-headless-puppeteer/blob/master/output/script1.pdf).
 
-Output can be found in the `output/script2.png`.
+### 2. [src/script2.js](https://github.com/alexoleynik0/oa-nodejs-internship-lesson6-headless-puppeteer/blob/master/src/script2.js)
+
+A script that opens `https://pptr.dev/`, changes the navbar's `color` to **#1F54C0**, makes a screenshot, and saves it as a `png` file.
+
+Output can be found in the [output/script2.png](https://github.com/alexoleynik0/oa-nodejs-internship-lesson6-headless-puppeteer/blob/master/output/script2.png).
